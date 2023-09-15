@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DicodingTaskBySayyid" parent="Theme.Material3.DayNight">
+
+<!--        Primary-->
+        <item name="colorPrimary">@color/orange_light</item>
+        <item name="colorOnPrimary">@color/black</item>
+<!--        secondary-->
+        <item name="colorSecondary">@color/gray_light</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+
+    <style name="description">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="name_item">
+        <item name="android:width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Theme.DicodingTaskBySayyid" parent="Base.Theme.DicodingTaskBySayyid" />
+</resources>
